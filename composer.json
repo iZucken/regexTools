@@ -1,0 +1,22 @@
+{
+	"name": "izucken/regex-tools",
+	"type": "library",
+	"description": "Regex utilities.",
+	"autoload": {
+		"psr-4": {
+			"izucken\\regexTools\\": "src"
+		}
+	},
+	"config": {
+		"platform": {
+			"php": "7.4"
+		}
+	},
+	"require": {
+		"ext-mbstring": "*"
+	},
+	"require-dev": {
+		"vimeo/psalm": "^4.4",
+		"phpunit/phpunit": "^9.5"
+	}
+}
